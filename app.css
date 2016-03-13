@@ -1,0 +1,117 @@
+body {
+	background-color: #282828;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#keyboard {
+	background-color: white;
+	display: block;
+	width: 775px;
+	height: 287px;
+    border-radius: 10px;
+}
+
+#answerBox {
+	width: 775px;
+	background-color: #585858;
+	color: white;
+	border-radius: 10px;
+}
+
+#answerBox > div{
+	margin-left: 6px;
+	min-height: 15px;
+}
+.parent {
+	width: 100%; /*can be in percentage also.*/
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.child {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#start {
+	background-color: gray;
+	width: 775px;
+	height: 40px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	margin-top: 1px;
+	line-height: 35px;
+	font-size: 20px;
+}
+
+#wrongAnswer {
+
+}
+
+code {
+	color: purple;
+}
+
+#answerText {
+	display: inline;
+	color: #white;
+}
+
+rect{
+  rx: 5.3;
+  ry: 5.4;
+}
+
+.st0{
+	fill: #E6E6E6;
+}
+
+.st2{
+	fill: #B3B3B3;
+}
+
+.st3{
+	fill: #B3B3B3;
+}
+.st4{
+	font-size: 12px;
+}
+
+#score{
+	display: inline-block;
+	font-size: 18px;
+	color: white;
+	float: right;
+	margin-top: 6px;
+	margin-right: 6px;
+}
+
+#title{
+	display: inline-block;
+	font-size: 24px;
+	float: left;
+	margin-top: 1px;
+	color: white;
+	margin-left: 6px;
+}
+
+#header {
+	width: 775px;
+	height: 40px;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	background-color: #4CAF50;
+	border-radius: 10px;
+}
+
+.questionHeader{
+	margin-left: 1px;
+	margin-top: 1px;
+	color: red;
+}
+
+#toContinue{
+	color: #C583AB;
+}

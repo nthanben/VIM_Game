@@ -1,0 +1,15 @@
+<template name="answer">
+	<div class="parent">
+		<div id="answerBox" class="child">
+			{{#each question}}
+					<div class="questionHeader">Question:</div>
+					<div id="answerText">{{text}}</div>
+				{{#if incorrect}}
+					<div class="questionHeader">Answer:</div>
+					<div id="wrongAnswer">{{{answerText}}}</div>
+					<div id="toContinue">{{{toContinue}}}</div>
+				{{/if}}
+			{{/each}}
+		</div>
+	</div>	
+</template>
