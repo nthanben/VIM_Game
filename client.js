@@ -1,3 +1,5 @@
+// This is a test and will never exist in real production
+
 if (Meteor.isClient) {
 
 	//Iron Router
